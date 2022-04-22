@@ -1,0 +1,730 @@
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+  }
+.nav_logo{
+	position: relative;
+	width: 100%;
+	height: 280px;
+	background-color: white;
+	background-image: url('./hinh/logonavv.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+}
+
+.myTable{
+	border-collapse: collapse;
+	width: 50%;
+	text-align: left;
+}
+.myTable td,th{
+border: 1px solid rgb(44, 42, 42);	
+}
+.myTable tr:hover{
+	background-color:blue;
+	color: rgb(41, 39, 39);
+}
+.myTable tr:nth-child(even){
+	background: #FFEBCD;
+}
+
+#tieu_de{
+	color: red;
+}
+#mylogo{
+	position: absolute;
+	padding: 35px;
+	width: 200px;
+	height: 200px;	
+	float: left; 
+	text-align: left;
+}
+#logo{
+	padding: 15px;
+	margin-top: 45px;
+	width:200px;
+	height: 100px;
+	text-align: center;
+}
+#logo img{
+	height:inherit; 
+}
+#myheader{
+	position: absolute;
+	left: 250px;
+	padding-top: 73px;
+	color: yellow;
+	font-size: 70px;
+	font-family: 'Poppins', sans-serif;
+}
+#ten_cong_ty{
+	color: white;
+	font-size: 50px;
+}
+#solgan{
+color: red;
+	font-size: 30px;
+	float: center;	
+}
+#mymenu{
+	background-color: #F5F5DC;
+	width: 100%;
+	height: 50px;	
+	text-align: center;
+	display: flex;
+  	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+#mymenu a{
+	text-decoration: none;
+	color: teal;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+.menu{
+	width: 125px;
+	height: 35px;
+	background-color: #F5F5DC;
+	margin: 2px;
+	color: #191919;
+}
+.menu:hover{
+	background-color:red;
+	/* font-size: 20px; */
+}
+.menu:hover .sub_menu{
+	display: flex;
+}
+#myleft{
+	background-color: #212D94;
+	width: 15%;
+	height: 600px;	
+	float: left; 
+}
+#chuyen_muc{
+	color: white;
+}
+.title_chuyen_muc{
+	background-color: #EC1D24;
+	text-align: center;
+	color: white;
+}
+#mycontent{
+	background-color: white;
+	width: 70%;
+	height: 600px;	
+	text-align: center;
+	float: left; 
+}
+.tieu_de_bai_viet{
+	color: DodgerBlue;
+}
+#myright{
+	background-color: #212D94;
+	width: 15%;
+	height: 600px;	
+	text-align:left; 
+	float: left; 
+}
+#center1{
+	width: 40px;
+	float: left ; 
+}
+#myfoodter{
+	position: relative;
+	background-color:#191919 ;
+	width: 100%;
+    height: 150px;
+	text-align: center;
+	float: left;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+}
+#myfoodter p{
+	font-size: 24px;
+}
+#myfoodter img{
+	width: 30%;
+	height: 150px;
+	position: absolute;
+	right: 0;
+}
+
+#foodterct{
+	position: absolute;
+	width: 70%;
+	height: 150px;
+	text-align: center;
+	float: left;
+}
+
+.ft{
+	font-size: 30px;
+	color: red;
+}
+/* đăng nhập */
+.container-login{
+	width: 50%;
+	margin-bottom: 20px;
+	height: auto;
+	border: solid;
+	border-width: 1px;
+	border-radius: 8px;
+	margin-left: 25%;
+	border-color:rgb(179, 178, 178);
+	position: relative;
+	text-align: center;
+  }
+  .container-login h2{
+	padding: 25px;
+	color: #3A4BCD;
+  }
+  .container-login p{
+	margin-bottom: 25px;
+  }
+  .container-login a{
+	color: #3A4BCD;
+	text-decoration: none;
+  }
+  .container-login input{
+	width: 50%;
+	height: 50px;
+	border-radius: 5px;
+	border-color:rgb(179, 178, 178);
+	font-size: 18px;
+	margin-bottom: 25px;
+  }
+  .container-login input[type=submit] {
+	background-color: #3A4BCD;
+	color: white;
+  }
+  .container-login select{
+	width: 50%;
+	height: 50px;
+	border-radius: 5px;
+	border-color:rgb(179, 178, 178);
+	font-size: 18px;
+	margin-bottom: 25px;
+  }
+  .container-login span{
+	color: red;
+  }
+/* quản trị hệ thống */
+/* định dạng trang quản trị hệ thống */
+.chucnang{
+	width: 15vw;
+	height: 100vh;
+	background-color:rgb(25,25,112);
+	float: left;
+  }
+  .button{
+	width: 15vw;
+	height: 10vh;
+	margin-bottom: 1px;
+	border: none;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+	background-color: rgb(25,25,112);
+	position: relative;
+  }
+  .button img{
+	position: absolute;
+	top: 30%;
+	left: 10%;
+  }
+  .button span{
+	position: absolute;
+	top: 40%;
+	left: 30%;
+  }
+  .xepchong{
+	  position: relative;
+  }
+  .danhsachchucnang :hover{
+	background-color: rgb(28, 28, 160);
+  }
+  .logoAdmin{
+	width: 15vw;
+	height: 10vh;
+	background-position: center;
+	background-color:#144081;
+	position: relative;
+  } 
+  .logoAdmin img{
+	max-width: 14vw;
+	top: 33%;
+	position: absolute;
+  }
+  .container-admin{
+	width: 83vw;
+	height: 100vh;
+	background-image: linear-gradient(to right, #0000, #e8f4fa);
+	float: left;
+	overflow: scroll;
+  }
+  .nav{
+	width: 83vw;
+	height: 10vh;
+	background-color: #144081;
+	/* background-color: #1E02C8; */
+  }
+  .heding{
+	width: 90%;
+	height: 10vh;
+	font-size: 20px;
+	font-weight: bold;
+	color: #144081;
+	margin-left: 5%;
+	padding-top: 3vh;
+	display: flex;
+	justify-content: space-between;
+  }
+  .heding a{
+	text-decoration: none;
+	color: white;
+  }
+  .table_boder {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+  }
+  
+  .table_boder td, #customers th {
+	border: 1px solid #ddd;
+	padding: 8px;
+  }
+  
+  .table_boder tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .table_boder tr:hover {background-color: #ddd;}
+  
+  .table_boder th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #144081;
+	color: white;
+  }
+  
+  /* table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+  }*/
+  table {
+	width: 90%;
+	margin-left: 5%;
+  }
+  td{
+	text-align: center;
+  } 
+  table img{
+	width: 150px;
+  }
+  #hinh-khoa{
+	text-align: center;
+  }
+  #sua{
+	text-align: center;
+  }
+  #btn-sua{
+	width: 60px;
+	height: 35px;
+	border-radius: 5px;
+	background-color: teal;
+  }
+  #btn-sua a{
+	text-decoration: none;
+	color: white;
+  }
+  #xoa{
+	text-align: center;
+  }
+  #btn-xoa{
+	width: 60px;
+	height: 35px;
+	border-radius: 5px;
+	background-color: rgb(201, 8, 8);
+  }
+  #btn-xoa a{
+	text-decoration: none;
+	color: white;
+  }
+  #btn-them{
+	width: 90px;
+	height: 40px;
+	border-radius: 5px;
+	background-color:teal;
+  }
+  .table_boder a{
+	text-decoration: none;
+	color: white;
+  }
+  /* drop down quản trị hệ thống */
+  /* Dùng trong <div> để định vị nội dung thả xuống */
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  /* Nội dung thả xuống (Ẩn theo mặc định) */
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #e9d8f4;
+	min-width: 160px;
+	left: 100%;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  /* Liên kết bên trong danh sách thả xuống */
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  /* Thay đổi định dạng của liên kết thả xuống khi di chuột qua */
+  .dropdown-content a:hover {
+	background-color: #58257b;
+	color: white;
+  }
+  
+  /* Hiển thị menu thả xuống khi di chuột */
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  
+  /* Thay đổi màu nền của nút thả xuống khi nội dung được hiển thị */
+  .dropdown:hover .dropbtn {
+	background-color: #984eca;
+  }
+  /* css thêm khoa */
+  #form-themkhoa input{
+	margin-left: 10%;
+	width: 30%;
+	height: 50px;
+	border-radius: 5px;
+  }
+  #form-themkhoa select{
+	margin-left: 10%;
+	width: 30%;
+	height: 50px;
+	border-radius: 5px;
+  }
+  #form-themkhoa span{
+	margin-left: 10%;
+	color: red;
+  }
+  #form-themkhoa textarea {
+	margin-left: 10%;
+	width: 30%;
+	height: 200px;
+	padding: 5px 6px;
+	box-sizing: border-box;
+	border: 2px solid rgb(33, 158, 216);
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	font-size: 16px;
+	resize: none;
+  }
+  .khoancach{
+	padding: 10px;
+  }
+  #btn-luu{
+	background-color: #3A4BCD;
+	color: white;
+  }
+  /* css quản trị câu hỏi */
+  .heding select{
+	width: 200px;
+	height: 42px;
+	border-radius: 5px;
+	box-shadow: #bbb;
+  }
+  .heding-cauhoi{
+	width: 100%;
+	height: 10vh;
+	font-size: 20px;
+	color: #3A4BCD;
+	padding-top: 3vh;
+  }
+  .heding-cauhoi a{
+	text-decoration:none;
+	color: white;
+  }
+  .canPhai{
+	float: right;
+	margin-left: 10px;
+  }
+  #form-themcauhoi{
+	width: 80%;
+	height:auto;
+	font-size: 20px;
+	margin-left: 10%;
+	padding-top: 3vh;
+  }
+  
+  #form-themcauhoi textarea {
+	margin-left: 10%;
+	width: 40%;
+	height: 80px;
+	padding: 5px 6px;
+	box-sizing: border-box;
+	border: 2px solid rgb(33, 158, 216);
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	font-size: 16px;
+	resize: none;
+  }
+  fieldset {
+	background-color: #eeeeee;
+	border: solid rgb(33, 158, 216) 2px;
+	border-radius: 5px;
+  }
+  legend {
+	margin-left: 10px;
+	background-color:lightseagreen;
+	color: white;
+	padding: 5px 10px;
+  }
+  #form-themcauhoi input[type="text"]{
+	margin-left: 10%;
+	width: 40%;
+	height: 45px;
+	border-radius: 5px;
+  }
+  #form-themcauhoi input[type="submit"]{
+	width: 90px;
+	height: 40px;
+	border-radius: 5px;
+	background-color:teal;
+  }
+  #form-themcauhoi select{
+	margin-left: 10%;
+	width: 40%;
+	height: 45px;
+	border-radius: 5px;
+  }
+  #form-themcauhoi span{
+	margin-left: 10%;
+	color: red;
+  }
+  #them-dapan{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+  }
+  .btn-them{
+	width: 90px;
+	height: 40px;
+	border-radius: 5px;
+	background-color:teal;
+  }
+  #MauDinhDang{
+	width: 90px;
+	height: 40px;
+	border-radius: 5px;
+	background-color:tomato;
+  }
+  #MauDinhDang a{
+	text-decoration: none;
+	color: white;
+  }
+  .ghichu ol{
+	padding-left: 15px;
+	padding-bottom: 5px;
+	font-size: medium;
+	list-style: none;
+  }
+  .ghichu li{
+	margin-left: 15px;
+  }
+/* css content */
+.content1{
+	padding-left: 10%;
+	width: 100vw;
+	height: auto;
+	background-repeat: no-repeat;
+	/*background-image: url("https://motulvietnam.com/Content/resources/images/bfBackground.png");*/
+	background-size: contain;
+}
+.sanpham{
+	width: 300px;
+	height: auto;
+	border: solid transparent;
+	box-shadow: -2px 2px 32px -16px #4d4d4d;
+    background: #fff;
+    /* cursor: pointer; */
+	text-align: center;
+	margin: 10px;
+}
+.loaisp{
+	color: red;
+	font-size: 60px;
+	font-weight: bold;
+	text-shadow: 5px 2px 4px rgb(216, 214, 214);
+}
+#hinhsp{
+	width: 200px;
+	height: auto;
+	text-align: center;
+}
+.xemthem{
+	margin-left: 5%;
+	padding-top: 10px;
+	align-items: center;
+	width: 90%;
+	height: 35px;
+	background-color: red;
+	border: solid red 1px;
+	color: white;
+	cursor: pointer;
+}
+.sp{
+	display: flex;
+  	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+}
+/* css chi tiết sản phẩm */
+.content_sp{
+	padding-left: 10%;
+	width: 100vw;
+	height: auto;
+	background-repeat: no-repeat;
+	/*background-image: url("https://motulvietnam.com/Content/resources/images/bfBackground.png");*/
+	background-size: contain;
+	display: flex;
+	margin: 25px;
+}
+.left_sp{
+	width: 40vw;
+	height: auto;
+}
+.right_sp{
+	float: right;
+	width: 60vw;
+	height: auto;
+	right: 0;
+	padding-top: 8%;
+}
+.tensanpham{
+	font-weight: bold;
+	font-size: 40px;
+
+}
+.hinhsanpham img{
+	width: 35vw;
+	height: auto;
+}
+.hinhphu{
+	width: 34.5vw;
+	display: flex;
+	flex-direction: row;
+	overflow: auto;
+}
+#hinhphu{
+	width: 200px;
+	height: auto;
+}
+.tieudesanpham span{
+	font-size: 18px;
+	color: red;
+}
+.tieudesanpham hr{
+	width: 550px
+}
+.tieudesanpham{
+	width: 60%;
+}
+.motasp{
+	width: 100px;
+	height: 45px;
+}
+.muahang{
+	width: 550px;
+	display: flex;
+	justify-content: space-between;
+	cursor: pointer;
+}
+.themgiohang{
+	padding-top: 10px;
+	width: 250px;
+	height: 50px;
+	color: white;
+	background-color: rgb(228, 2, 2);
+	font-size: 18px;
+	text-align: center;
+}
+
+/* css hộp thoại nổi */
+dialog {
+    position: absolute;
+    text-align: center;
+    width: -webkit-fit-content;
+    height: -webkit-fit-content;
+    color: black;
+    margin: auto;
+	border: 1px white;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+    padding: 1em;
+    background: white;
+	border-radius: 3px;
+}
+#huy{
+	width: 75px;
+	height: 25px;
+	background-color: red;
+	color: white;
+	border-radius: 2px;
+}
+#confirmBtn{
+	width: 75px;
+	height: 25px;
+	background-color: teal;
+	color: white;
+	border-radius: 2px;
+}
+.chotdon{
+	text-align: center;
+}
+
+/* css menu đa cấp */
+.sub_menu{
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	position: relative;
+	display: none;
+	width: 250px;
+	text-align: left;
+}
+.sub_menu a{
+	text-decoration: none;
+}
+.sub_menu li{
+	list-style: none;
+	height: 35px;
+	padding-top: 10px;
+	padding-left: 25px;
+}
+.sub_menu li:hover{
+	background-color: red;
+}
+.slogan{
+	font-family: 'Send Flowers', cursive;
+	color: black;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
